@@ -8,10 +8,20 @@ This repository contains the PyTorch implementation of the network described in 
 The proposed approach was tested on Cholec80 dataset which can be downloaded by following the steps listed at [https://github.com/CAMMA-public/TF-Cholec80](https://github.com/CAMMA-public/TF-Cholec80).
 
 ## Preprocessing
-After downloading the Cholec80 dataset, modify the path to the video folders in the files [`train.txt`](data/train.txt) and [`val.txt`](data/val.txt). Next, modify the path to annotations folder in the config files in `stage_1` and `stage_2` folders.
+After downloading the Cholec80 dataset, modify the path to the video folders in the files [`train.txt`](data/train.txt) and [`val.txt`](data/val.txt). Next, modify the path to annotations folder in the config files in [`stage_1`](stage_1) and [`stage_2`](stage_2) folders.
 
 Install the necessary python packages by running
 
-`pip install -r requirements.txt`
+```
+pip install -r requirements.txt
+```
 
-## Training
+## Training stage 1
+
+Initialize the vMF kernels randomly by running the following commands
+
+```
+cd stage_1
+python init_vmf.py
+```
+
