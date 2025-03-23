@@ -16,12 +16,24 @@ Install the necessary python packages by running
 pip install -r requirements.txt
 ```
 
-## Training stage 1
+## Training and inference
 
-Initialize the vMF kernels randomly by running the following commands
+The following steps are common for both Stage 1 and Stage 2. Clearly, Stage 1 training needs to be performed prior to Stage 2. 
+
+Initialize the vMF kernels randomly by running the following commands.
 
 ```
-cd stage_1
 python init_vmf.py
 ```
 
+Change the training hyperparameters in the file [config.py](stage_1/config.py) and run the training script.
+
+```
+python train.py
+```
+
+Run the inference script in both the stages to perform inference. The default paths to checkpoints used for inference are set to pretrained weights available in the folder [checkpoints](checkpoints).
+
+```
+python inference.py
+```
