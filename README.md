@@ -62,9 +62,9 @@ vMF kernel update through the epochs:
 vMF kernel update through the epochs:
 ![vMF kernel update Stage 2](assets/vMF_kernel_update_stage2.gif)
 
-### Progressive image reconstruction
+<!-- ### Progressive image reconstruction
 
-![Reconstruction](assets/ch5_7_tool_grid.png)
+![Reconstruction](assets/ch5_7_tool_grid.png) -->
 
 ## Acknowlegement
 Part of the code is based on [vMFNet](https://github.com/vios-s/vMFNet) and [Compositional Nets](https://github.com/AdamKortylewski/CompositionalNets).
