@@ -32,7 +32,7 @@ Change the training hyperparameters in the file [config.py](stage_1/config.py) a
 python train.py
 ```
 
-Run the inference script in both the stages to perform inference. The default paths to checkpoints used for inference are set to pretrained weights available in the folder [checkpoints](checkpoints).
+Run the inference script in both the stages to perform inference. The default paths to checkpoints used for inference are set to pretrained weights available in the folder [checkpoints](checkpoints). Running the inference will save the input image, reconstructed image and the disentangled image 
 
 ```
 python inference.py
