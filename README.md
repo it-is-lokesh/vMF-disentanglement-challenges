@@ -50,8 +50,8 @@ python inference.py
 |---------|---------|
 | ![Input image](assets/val_inp_img_5.png) | ![Disentangled image](assets/val_zvmf_5.png) |
 
-vMF kernel update through the epochs:
-![vMF kernel update Stage 1](assets/vMF_kernel_update_stage1.gif)
+<!-- vMF kernel update through the epochs:
+![vMF kernel update Stage 1](assets/vMF_kernel_update_stage1.gif) -->
 
 ### Stage 2
 
@@ -59,12 +59,12 @@ vMF kernel update through the epochs:
 |---------|---------|
 | ![Input image](assets/ch5_inp_img_tool_1.png) | ![Disentangled image](assets/vmf_tool1.png) |
 
-vMF kernel update through the epochs:
-![vMF kernel update Stage 2](assets/vMF_kernel_update_stage2.gif)
+<!-- vMF kernel update through the epochs:
+![vMF kernel update Stage 2](assets/vMF_kernel_update_stage2.gif) -->
 
-<!-- ### Progressive image reconstruction
+### Progressive image reconstruction
 
-![Reconstruction](assets/ch5_7_tool_grid.png) -->
+![Reconstruction](assets/ch5_7_tool_grid.png)
 
 ## Acknowlegement
 Part of the code is based on [vMFNet](https://github.com/vios-s/vMFNet) and [Compositional Nets](https://github.com/AdamKortylewski/CompositionalNets).
