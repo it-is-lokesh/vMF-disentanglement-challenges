@@ -59,3 +59,9 @@ python inference.py
 ### Progressive image reconstruction
 
 ![Reconstruction](assets/ch5_7_tool_grid.png)
+
+## Acknowlegement
+Part of the code is based on [vMFNet](https://github.com/vios-s/vMFNet) and [Compositional Nets](https://github.com/AdamKortylewski/CompositionalNets).
+
+## License
+All scripts are released under the MIT License.
