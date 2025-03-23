@@ -69,7 +69,7 @@ vMF kernel update through the epochs:
 ## Acknowlegement
 Part of the code is based on [vMFNet](https://github.com/vios-s/vMFNet) and [Compositional Nets](https://github.com/AdamKortylewski/CompositionalNets).
 
-The animations in the README.md file are generated using ManimCE, and the source code is available at [animations.py](assets/animations.py)
+The animations in the README.md file are generated using [ManimCE](https://docs.manim.community/en/stable/), and the source code is available at [animations.py](assets/animations.py)
 
 ## License
 All scripts are released under the MIT License.
